@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26417a71-2a4f-4b21-85e2-c0c73bf32c57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msb/bean/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msb/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msb/bean/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ioc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/msb/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/msb/AppTest.java" afterDir="false" />
     </list>
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +41,7 @@
     "Application.App.executor": "Debug",
     "JUnit.AppTest.executor": "Run",
     "JUnit.AppTest.testApp.executor": "Run",
+    "JUnit.AppTest.testResf.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -56,7 +58,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AppTest.testApp">
+  <component name="RunManager" selected="JUnit.AppTest.testResf">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.App" />
       <module name="spring_study" />
@@ -101,8 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testResf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.AppTest" />
+      <option name="METHOD_NAME" value="testResf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testResf" />
         <item itemvalue="JUnit.AppTest.testApp" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
@@ -125,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717785102133</updated>
-      <workItem from="1717785103170" duration="2600000" />
+      <workItem from="1717785103170" duration="4342000" />
     </task>
     <servers />
   </component>

@@ -8,5 +8,18 @@
         <property name="name" value="duanxia"/>
         <property name="age" value="81"/>
         <property name="gender" value="男"/>
+        <property name="children">
+            <array>
+                <value>wangxiankun</value>
+                <value>zhouyu</value>
+            </array>
+        </property>
+        <property name="address" ref="address" />
+    </bean>
+
+    <bean id="address" class="com.msb.bean.Address">
+        <property name="province" value="湖南省"/>
+        <property name="city" value="长沙" />
+        <property name="town" value="星沙" />
     </bean>
 </beans>

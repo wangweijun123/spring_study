@@ -45,4 +45,10 @@ public class AppTest
         // scope="singleton"  person1 == person2 ？true
         System.out.println("person1 == person2 ？" + (person1 == person2));
     }
+
+    public void testResf(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("ioc.xml");
+        Person person2 = context.getBean("person", Person.class);
+        System.out.println("person2 = " + person2);
+    }
 }

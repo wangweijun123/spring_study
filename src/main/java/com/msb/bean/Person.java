@@ -1,10 +1,35 @@
 package com.msb.bean;
 
+import java.util.Arrays;
+
 public class Person {
     private int id;
     private String name;
     private int age;
     private String gender;
+
+    private String[] children;
+
+    public String[] getChildren() {
+        return children;
+    }
+
+    public void setChildren(String[] children) {
+        this.children = children;
+    }
+
+    private Address address;
+
+
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
     public Person() {
         System.out.println("person 被創建");
     }
@@ -43,6 +68,13 @@ public class Person {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", children=" + Arrays.toString(children) +
+                ", address=" + address +
+                '}';
     }
 }
